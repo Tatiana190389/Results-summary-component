@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@300;400;700&family=Rubik:wght@400;500;700;900&display=swap');
+
+body{
+    background-color:hsl(224, 30%, 95%);
+    font-family: 'Hanken Grotesk', sans-serif;
+} 
+
+.card{
+    display: flex;
+    height: 513px;
+    width: 736px;
+    margin-top: 284px;
+    margin-left: 352px;
+    border-radius: 32px;
+    box-shadow: 0 0 10px hsl(224, 30%, 75%);
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 368px;
+    
+    margin: 0 auto;
+}
+
+.left_section{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    border-radius: 32px;
+}
+
+.result_title{
+    color: hsl(221, 100%, 96%);
+    margin-top: 38px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.circle{
+    width: 200px; 
+    height: 200px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    margin:0 auto;
+}
+.result_number{
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 46px;
+    margin: 0 auto;
+}
+.your_number{
+    color: white;
+    font-weight: 800;
+    font-size: 72px;
+}
+.max_number{
+    color: hsl(221, 100%, 96%);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.great_title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+}
+
+.description{
+    color: hsl(221, 100%, 96%);
+    font-weight: 500;
+    font-size: 18px;
+    width: 260px;
+    height: 69px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.right_section{
+    text-align: center;
+}
+
+.right_title{
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    font-weight: 800;
+    margin-top: 38px;
+    margin-left: 40px;
+}
+
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background-color: hsl(0, 100%, 95%);
+    margin-bottom: 16px;
+}
+
+.react_title{
+    color: hsl(0, 100%, 67%);
+    text-align:left; 
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.right_section_img{
+    width: 20px;
+    height: 20px;
+    text-align: left;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.your_rez{
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 17px;
+    margin-left: 81px;
+    margin-right: 8px;
+}
+
+.max_rez{
+    color: hsl(224, 30%, 60%);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 17px;
+    margin-right: 16px;
+}
+.memory{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background-color: hsl(39, 100%, 95%);
+    margin-bottom: 16px;
+}
+
+.memory_title{
+    color: hsl(39, 100%, 56%);
+    text-align:left; 
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background-color: hsl(166, 100%, 95%);
+    margin-bottom: 16px;
+}
+.verbal_title{
+    color: hsl(166, 100%, 37%);
+    text-align:left; 
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 12px; 
+}
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 288px;
+    border-radius: 12px;
+    background-color: hsl(241, 100%, 95%);
+    margin-bottom: 16px;
+}
+
+.visual_title{
+    color:hsl(234, 85%, 45%);
+    text-align:left; 
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 12px; 
+}
+
+.continue{
+    height: 56px;
+    width: 288px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 128px;
+    text-align: center;
+    align-items: center;
+    margin-top: 41px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.continue:active{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor:pointer;
+}
+
+footer{
+    margin-top: 25px;
+}
+
+.attribution{
+    font-size: 15px; 
+    margin-left: 500px;
+}
+
+.attribution a{
+    color: hsl(228, 43%, 41%);
+}
+
+.attribution a:active{
+    cursor: pointer;
+}
